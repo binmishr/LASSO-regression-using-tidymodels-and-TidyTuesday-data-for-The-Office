@@ -21,10 +21,6 @@ office_ratings <- readr::read_csv('https://raw.githubusercontent.com/rfordatasci
 
 # Either ISO-8601 date or year/week works!
 
-# Install via devtools::install_github("thebioengineer/tidytuesdayR")
-
 tuesdata <- tidytuesdayR::tt_load('2020-03-17')
 tuesdata <- tidytuesdayR::tt_load(2020, week = 12)
-
-
 office_ratings <- tuesdata$office_ratings
